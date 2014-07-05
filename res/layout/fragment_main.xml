@@ -1,16 +1,103 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cl.fullpay.app.MainActivity$PlaceholderFragment" >
+    android:layout_height="48dp"
+    android:orientation="horizontal" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:text="Rol" 
+	        android:background="@drawable/border_account_item"
+	        />
+	
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="3"
+	        android:background="@drawable/border_account_item"
+	        android:text="Nombre" />
+	
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_account_item"
+	        android:text="Rut" />
+	
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_account_item"
+	        android:text="Ingreso" />
+	
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_account_item"
+	        android:text="Tipo" />
+	
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="2"
+	        android:background="@drawable/border_account_item"
+	        android:text="Observación" />
+	</LinearLayout>
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
 
-</RelativeLayout>
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_account_item"
+	        android:text="10155-2014" />
+	
+	    <TextView
+	        android:layout_width="0dp"
+	        android:background="@drawable/border_account_item"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="3"
+	        android:text="Fabiola Perez Lucero"
+	        android:textSize="20dp" />
+	
+	    <TextView
+	        android:layout_width="0dp"
+	        android:background="@drawable/border_account_item"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:text="13031252-7" />
+	
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_account_item"
+	        android:text="29-05-14" />
+	
+	    <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:background="@drawable/border_account_item"
+	        android:text="Cedida" />
+
+	    <Spinner
+	        android:id="@+id/spinner1"
+	        android:layout_width="0dp"
+	        android:background="@drawable/border_account_item"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="2" />
+
+	</LinearLayout>
+	
+</LinearLayout>
