@@ -18,7 +18,7 @@
 	    <TextView
 	        android:layout_width="0dp"
 	        android:layout_height="fill_parent"
-	        android:layout_weight="3"
+	        android:layout_weight="2"
 	        android:background="@drawable/border_account_item"
 	        android:text="Nombre" />
 	
@@ -46,57 +46,207 @@
 	    <TextView
 	        android:layout_width="0dp"
 	        android:layout_height="fill_parent"
-	        android:layout_weight="2"
+	        android:layout_weight="3"
 	        android:background="@drawable/border_account_item"
-	        android:text="Observación" />
+	        android:text="Etapa" />
 	</LinearLayout>
 	<LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal" >
+    android:orientation="horizontal" 
+    android:layout_height="48dp">
 
 	    <TextView
-	        android:layout_width="0dp"
-	        android:layout_height="fill_parent"
+	        style="@style/account_cell"
 	        android:layout_weight="1"
-	        android:background="@drawable/border_account_item"
 	        android:text="10155-2014" />
 	
 	    <TextView
-	        android:layout_width="0dp"
-	        android:background="@drawable/border_account_item"
-	        android:layout_height="fill_parent"
-	        android:layout_weight="3"
+	        style="@style/account_cell"
+	        android:layout_weight="2"
 	        android:text="Fabiola Perez Lucero"
-	        android:textSize="20dp" />
+	         />
 	
 	    <TextView
-	        android:layout_width="0dp"
-	        android:background="@drawable/border_account_item"
-	        android:layout_height="fill_parent"
+	        style="@style/account_cell"
 	        android:layout_weight="1"
 	        android:text="13031252-7" />
 	
 	    <TextView
-	        android:layout_width="0dp"
-	        android:layout_height="fill_parent"
+	        style="@style/account_cell"
 	        android:layout_weight="1"
-	        android:background="@drawable/border_account_item"
 	        android:text="29-05-14" />
 	
 	    <TextView
-	        android:layout_width="0dp"
-	        android:layout_height="fill_parent"
+	        style="@style/account_cell"
 	        android:layout_weight="1"
-	        android:background="@drawable/border_account_item"
 	        android:text="Cedida" />
 
 	    <Spinner
 	        android:id="@+id/spinner1"
 	        android:layout_width="0dp"
-	        android:background="@drawable/border_account_item"
 	        android:layout_height="fill_parent"
-	        android:layout_weight="2" />
+	        android:layout_weight="3"
+	        android:entries="@array/stages_array" />
+
+	</LinearLayout>
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal" 
+    android:layout_height="48dp">
+
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="10225-2014" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="2"
+	        android:text="Lesly Veliz Villanueva"
+	         />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="15625198-4" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="30-05-14" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="Propia" />
+
+	    <Spinner
+	        android:id="@+id/spinner2"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="3"
+	        android:entries="@array/stages_array"
+	        />
+
+	</LinearLayout>
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal" 
+    android:layout_height="48dp">
+
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="10276-2014" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="2"
+	        android:text="Yessica Rojas Cortes"
+	         />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="1207710-4" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="02-06-14" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="Propia" />
+
+	    <Spinner
+	        android:id="@+id/spinner3"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="3"
+	        android:entries="@array/stages_array"
+	         />
+
+	</LinearLayout>
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal" 
+    android:layout_height="48dp">
+
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="10295-2014" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="2"
+	        android:text="Lorna Barriga Hernandez"
+	         />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="16145873-2" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="02-06-14" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="Propia" />
+
+	    <Spinner
+	        android:id="@+id/spinner4"	        
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="3"
+	        android:entries="@array/stages_array"
+	        />
+
+	</LinearLayout>
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal" 
+    android:layout_height="48dp">
+
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="10297-2014" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="2"
+	        android:text="Maria Caamano Caamano"
+	         />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="16633673-2" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="02-06-14" />
+	
+	    <TextView
+	        style="@style/account_cell"
+	        android:layout_weight="1"
+	        android:text="Cedida" />
+
+	    <Spinner
+	        android:id="@+id/spinner5"
+	        android:layout_width="0dp"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="3"
+	        android:entries="@array/stages_array"
+	        />
 
 	</LinearLayout>
 	

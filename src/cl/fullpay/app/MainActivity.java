@@ -3,12 +3,9 @@ package cl.fullpay.app;
 
 import java.util.ArrayList;
 
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.app.SearchManager;
-import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -19,7 +16,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
+import android.widget.Spinner;
 
 
 
@@ -44,9 +41,9 @@ public class MainActivity extends Activity {
         mDrawerList.addHeaderView(header);
         
         ArrayList<String> menuItems= new ArrayList<String>();
-        menuItems.add("Juzgado 1");
-        menuItems.add("Juzgado 2");
-        menuItems.add("juzgado 3");
+        menuItems.add("1 Civil ");
+        menuItems.add("2 Civil");
+        menuItems.add("1 Puente alto");
 
         // Set the adapter for the list view
         mDrawerList.setAdapter(new ArrayAdapter<String>(this,
@@ -82,7 +79,7 @@ public class MainActivity extends Activity {
         	
         };
          mDrawerLayout.setDrawerListener(mDrawerToggle);
-        
+         
          if (savedInstanceState == null) {
              loadFragment(0);
          }       

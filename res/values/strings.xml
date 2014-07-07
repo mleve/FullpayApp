@@ -9,5 +9,22 @@
 	        <item>Opcion 1</item>
 	        <item>Opcion 2</item>
 	        <item>Opcion 3</item>
-	    </string-array>
+	</string-array>
+	<string-array name="stages_array">
+        <item>Ingreso demanda distribución</item>
+        <item>Ingreso demanda al tribunal</item>
+        <item>Autoriza poder y acompaña documentos</item>
+        <item>Demanda proveída</item>
+        <item>Encarga mandamiento de ejecución y embargo</item>
+        <item>Mandamiento</item>
+        <item>Encarga Notificación y receptor</item>
+        <item>Búsquedas positivas</item>
+        <item>Solicita al tribunal por notificación art. 44</item>
+        <item>Autoriza notificación por el art. 44</item>
+        <item>Encarga notificación por el art. 44 a receptor</item>
+        <item>Encarga exhorto</item>
+        <item>Exhorto</item>
+        <item>Ingreso de exhorto en tribunal exhorto</item>
+        
+    </string-array>
 </resources>
